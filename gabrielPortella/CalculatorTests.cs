@@ -74,7 +74,7 @@ namespace gabrielPortella
         }
 
         [TestMethod]
-        public void TaxPayment()
+        public void TaxPaymentTest()
         {
             // Arrange
             IncomeCalculator income = new IncomeCalculator();
@@ -90,7 +90,7 @@ namespace gabrielPortella
         }
 
         [TestMethod]
-        public void TaxPaymentNegative()
+        public void TaxPaymentNegativeTest()
         {
             // Arrange
             IncomeCalculator income = new IncomeCalculator();
